@@ -1,0 +1,106 @@
+html{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 26px;
+    font-family: font;
+}
+
+
+body{
+    /* display: flex; v1
+    flex-direction: column;   
+    margin: 0;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(129, 79, 79); */
+    
+    display: flex; /*caixa branca v2*/
+    flex-direction: column;   
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    align-content: space-between;
+    background-color: rgb(236, 236, 236);
+}
+
+nav{ /*menu*/
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    order: -1;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(124, 173, 212)
+}
+
+nav a{ /*menu*/
+    font-size: 30px;
+    color: rgb(29, 27, 28);
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px;
+}
+
+nav a:hover{ /*menu*/
+    background-color:rgb(236, 232, 214);
+    text-decoration: underline;
+    border-radius: 4px;
+        
+}
+
+.box{ /*caixa branca*/
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding-top: 350px;
+    padding-bottom: 350px;
+
+}
+
+.flex-header{ /* Bem vindos ao mundo das receitas*/
+    width: 200px;
+}
+
+.box-title{ /*receitas da thá*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-h1{ /*receitas da thá*/
+    display: inline-block;
+    color: rgb(20, 124, 165);
+    font-size: 55px;
+    padding: 50px;
+    order:2;
+    
+}
+
+.title-h2{
+    color: rgb(20, 124, 165);
+    order: 3;
+    font-size: 28px;
+}
+
+.logotipo{
+    display: inline block;
+    order: 1;
+    height: 180px;
+    width: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(236, 236, 236)
+    
+}
+
+footer{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    background-color: rgb(124, 173, 212);
+    justify-content: center;    
+}
+

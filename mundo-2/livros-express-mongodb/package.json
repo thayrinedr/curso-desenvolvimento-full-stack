@@ -1,0 +1,23 @@
+{
+  "name": "livraria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "concurrently \"npm run server\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.8",
+    "nodemon": "^2.0.20"
+  }
+}

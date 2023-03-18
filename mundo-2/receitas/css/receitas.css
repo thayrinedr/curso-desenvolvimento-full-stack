@@ -1,0 +1,102 @@
+html{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-family: font;
+    src: url(st_nicholas/linda.ttf);
+}
+
+
+body{ /*caixa branca*/
+    display: flex;
+    flex-direction: column;   
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    align-content: space-between;
+    background-color: rgb(236, 236, 236);
+}
+
+nav{
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    order: -1;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(124, 173, 212)
+}
+
+nav a{
+    font-size: 20px;
+    color: rgb(29, 27, 28);
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-receitas{ /*caixa azul*/
+    display: flex;
+    width:fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height: 900px; */
+    margin:0%;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.box{ /*caixas pretas*/
+    margin: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(236, 236, 236);
+    height: 650px;
+    width: 300px;
+    border: 2px solid rgb(217, 201, 238);
+    background-color: linear;
+    color: rgb(78, 113, 158);
+}
+
+.class-img-receita{ /*conteudo*/
+    display: flex;
+    margin: 55px;
+    height: 150px;
+    width: 150px;
+    margin-left: 68px;
+    margin-bottom: 54px;
+    margin-top: 19px;
+}
+
+.text-ingredientes{
+    font-size: 18px;
+    color: rgb(78, 113, 158);
+}
+
+.text{
+    color: rgb(78, 113, 158);
+    font-size: 15px;
+    display: flex;
+    margin: auto;
+}
+
+
+footer{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    background-color: rgb(124, 173, 212);
+    justify-content: center;    
+}
+
